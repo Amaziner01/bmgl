@@ -1,0 +1,2 @@
+## BMGL
+BMGL is a basic home-made modern opengl funtion loader with no external dlls or linking required to use it. By the moment It only works on windows, but in the future I'll add linux support. I you find out that there is either a function or a declaration I didn't add, feel free to give me a shot or make a pull request yourself adding the feature.
