@@ -1,5 +1,5 @@
-#ifndef _BASIC_GL_H
-#define _BASIC_GL_H
+#ifndef _BMGL_H_
+#define _BMGL_H_
 
 /*===============================================*/
 /*            _                     _            */
@@ -131,7 +131,7 @@ GL_FUNCS
 #define GLF(type, name, ...) gl##name = (void*)wglGetProcAddress("gl"#name); if (!gl##name) return false;
 
 /* Initialize modern opengl functions */
-bool m_gl_init(void){
+bool bmgl_init(void){
     GL_FUNCS
     return true;
 };
